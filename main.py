@@ -26,7 +26,7 @@ def process(latest_version: Version, session: FlareSolverrSession):
 
     print("Downloading patches")
     pikoRelease = download_release_asset(
-        "crimera/piko", "^patches.*mpp$", "bins", "patches.mpp", include_prereleases=True
+        "crimera/piko", "^patches.*mpp$", "bins", "patches.mpp", include_prereleases=False
     )
 
     message: str = f"""
