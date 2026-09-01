@@ -1,8 +1,8 @@
 name: Release
 
 on:
-  schedule:
-    - cron: '12 8 * * *'
+ # schedule:
+#    - cron: '12 8 * * *'
   workflow_dispatch:
 
 permissions:
